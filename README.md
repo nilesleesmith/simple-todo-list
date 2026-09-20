@@ -1,43 +1,42 @@
 # Simple To-Do List
 
-A simple to-do list I created while learning web development.
+A small browser-based to-do list built while learning JavaScript and DOM manipulation.
 
-This project helped me practice using JavaScript to interact with HTML elements and respond to user actions.
+## About
 
-## How It Works
+This project allows users to create tasks, mark them as completed, return completed tasks to the active list, and delete tasks.
 
-You can:
+It demonstrates how JavaScript can respond to user actions and dynamically modify elements on a webpage.
 
-- Add a new task
-- Mark a task as completed
-- Move a completed task back to the to-do list
-- Delete a task
+## Features
 
-Completed tasks are moved to the **My Done-Do** section and crossed out.
+- Add new tasks
+- Mark tasks as complete
+- Move completed tasks back to the active list
+- Delete tasks
+- Visually distinguish completed tasks
 
-## Built With
-
-- HTML
-- CSS
-- JavaScript
-
-## What I Learned
-
-I built this project to practice:
+## What I Practiced
 
 - DOM manipulation
 - Event listeners
+- Form input
 - Creating HTML elements with JavaScript
-- Moving elements around the page
-- Removing elements
-- Working with form input
-- Basic JavaScript logic
+- Moving elements within the DOM
+- Removing DOM elements
+- Functions
+- Basic application logic
 
-This was one of my early projects while learning how HTML, CSS, and JavaScript work together.
+## Technologies
 
-## Run the Project
+- HTML5
+- CSS3
+- JavaScript
 
-Clone the repository:
+## Running the Project
 
-```bash
-git clone https://github.com/nilesleesmith/simple-todo-list.git
+Clone or download the repository and open `index.html` in a web browser.
+
+## Purpose
+
+This was one of my early JavaScript projects and helped me understand how HTML, CSS, and JavaScript work together to create interactive browser applications.
