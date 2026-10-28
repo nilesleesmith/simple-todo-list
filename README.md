@@ -1,22 +1,61 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Simple To-Do List
 
-### Goal: Build a Simple Todo List
+Add, complete, reopen, and delete tasks in a simple browser-based list.
 
-### How to submit your code for review:
+## Overview
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Simple To-Do List lets a user enter a task and add it to a To-Do list.
 
-Example:
+Each task includes a checkbox and delete button. Checking a task moves it to the Done-Do list, unchecking it moves the task back to To-Do, and deleting removes it from the page.
+
+## Features
+
+- Add a task
+- Prevent empty tasks from being added
+- Mark a task as complete
+- Move completed tasks to the Done-Do list
+- Move completed tasks back to the To-Do list
+- Delete tasks
+- Clear the input after adding a task
+
+## Technologies
+
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+</p>
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nilesleesmith/simple-todo-list.git
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+2. Open the project folder.
+
+3. Open `index.html` in a web browser.
+
+No additional packages or build steps are required.
+
+## Project Context
+
+This project was originally completed from a provided to-do-list coding assignment. The current repository contains the browser interface and JavaScript behavior used to add, move, and delete tasks.
+
+## Live Site
+
+https://nilesleesmith.github.io/simple-todo-list/
+
+## Screenshots
+
+![Simple To-Do List desktop view](./screenshots/simple-todo-list-desktop.png)
